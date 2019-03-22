@@ -14,7 +14,7 @@ class Client{
     this.lastname = lastname;
   }
   what(){
-    // Retourne une ligne avec les variables précédement instanciées
+    // Retourne une chaine de caractères avec les variables précédement instanciées
     return `Nom : ${this.id} ${this.firstname} ${this.lastname}`;
   }
 }
@@ -29,8 +29,9 @@ console.log(Henry.what());
 ````javascript
 constructor (element1, element2){
 this.element1 = variable1;
-this.element2 = variable2;}````
+this.element2 = variable2;}
+````
 
-Vous pouvez nommez les element et les variables comme bon vous semble. Mais rappellez-vous de les nommez avec des noms qui parlent.
+Vous pouvez nommez les éléments et les variables comme bon vous semble. Mais rappellez-vous de les nommez avec des noms qui parlent.
 
-**this** rappelle à l'élément en cours d'utilisation, donc à l'objet en lui même.'
+**this** rappelle à l'élément en cours d'utilisation, donc à l'objet en lui même.
